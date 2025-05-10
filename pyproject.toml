@@ -1,0 +1,24 @@
+[project]
+name = "deep-memory-agent"
+version = "0.1.0"
+description = "graphiti prototype"
+authors = [
+    {name = "Zach Ip",email = "ip.zachary.t@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12, <4"
+dependencies = [
+    "graphiti-core (>=0.11.5,<0.12.0)",
+    "neo4j (>=5.28.1,<6.0.0)",
+    "asyncio (>=3.4.3,<4.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "langchain-openai (>=0.3.16,<0.4.0)",
+    "langgraph (>=0.4.3,<0.5.0)",
+    "ipywidgets (>=8.1.7,<9.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
